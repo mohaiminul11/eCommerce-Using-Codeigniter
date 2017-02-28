@@ -1,0 +1,126 @@
+/*html{
+  position: relative;
+}*/
+
+body {
+  padding-top: 90px;
+  overflow-x: hidden;
+}
+
+.topNavSearchBar{
+  width: 100%;
+  min-height:90px;
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+  background-color:#FFFFFF;
+  padding-bottom: 5px;
+}
+
+.topNavSearchBar .row:first-child{
+  height: 20px;
+  /*background:yellow;*/
+  text-align: center;
+  /*font-size:1.25em;*/
+  padding:5px 0;
+  margin-bottom: 10px;
+}
+
+.topNavSearchBar .row:first-child a{
+  /*display: inline-block;*/
+}
+
+.secondNavBar{
+  background-color:#2874F0;
+  margin:auto -2px;
+  margin-top:-2px;
+  color:white;
+}
+
+.topNavSearchBar .logo{
+  text-align: center;
+  font-size: 2em;
+  font-weight: 700;
+}
+/*.navbar-form input{
+  width: 100%;
+}*/
+
+.topNavSearchBar input{
+  width: 80%;
+  height:40px;
+  display: inline-block;
+}
+.topNavSearchBar button{
+  height:40px;
+  width: 50px;
+  margin-left: -5px;
+  margin-top:-2px;
+  border-radius:0px;
+  display: inline-block;
+  background-color:#FFE11B;
+  font-size: 1.5em;
+}
+
+.topNavSearchBar button:hover{
+  background-color:#FFE11B;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    color:white;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.cart{
+  /*height:40px;*/
+  width: 60%;
+  height: 40px;
+  font-size: 1.5em;
+  background:#2469D9;
+  text-align: center;
+  border-radius: 5px;
+  color:rgba(255, 255, 255, 0.8);
+
+}
+
+.cart>span{
+  vertical-align: middle;
+}
+
+.secondNavBar .navbar-collapse>ul{
+  margin-left:100px;
+}
+
+.submenu .menuItems{
+  display: none;
+}
+
+.menuItems {
+  list-style: none;
+}
+.menuItems a{
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+}
+.submenu:hover .menuItems{
+  display: block;
+}
+
+
+/*Footer*/
+footer{
+  text-align: center;
+  padding-top:10px;
+  border-top: 2px solid #2874F0;
+}

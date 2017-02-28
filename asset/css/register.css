@@ -1,0 +1,20 @@
+body{
+    background-color: #7ABA57;
+}
+.centered-form{
+	margin-top: 150px;
+}
+
+.centered-form .panel{
+	background: #FFFFFF;
+	box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+  border-radius: 0;
+}
+
+.btn{
+  background-color:#43A047;
+}
+
+.btn:hover{
+  background-color:#216b24;
+}
